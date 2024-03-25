@@ -62,12 +62,6 @@ const Home = () => {
             todos={incompleteTodos}
             action={markTodo}
           />
-
-          <TodoSection
-            title="Completed"
-            todos={completedTodos}
-            action={removeTodo}
-          />
         </Loading>
       </div>
     </div>
